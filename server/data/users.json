@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "htiklequ4",
+    "email": "patient@healthtech.vn",
+    "password": "password123",
+    "role": "patient",
+    "fullName": "Nguyễn Văn A",
+    "phone": "0901234567",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=150",
+    "createdAt": "2026-07-15T16:10:09.859Z"
+  },
+  {
+    "_id": "qv1cgw0dm",
+    "email": "doctor@healthtech.vn",
+    "password": "password123",
+    "role": "doctor",
+    "fullName": "BS. Trần Thị B",
+    "phone": "0912345678",
+    "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=150",
+    "specialty": "Nội khoa & Xét nghiệm sinh hóa",
+    "experience": "10 năm kinh nghiệm",
+    "workplace": "Bệnh Viện Đa Khoa MedLatec",
+    "bio": "Chuyên môn sâu về đọc và phân tích kết quả xét nghiệm máu, chẩn đoán mỡ máu, tiểu đường và các bệnh lý về gan mật.",
+    "createdAt": "2026-07-15T16:10:09.861Z"
+  },
+  {
+    "_id": "ynr8hx8aq",
+    "email": "admin@healthtech.vn",
+    "password": "password123",
+    "role": "admin",
+    "fullName": "Quản Trị Viên Hệ Thống",
+    "phone": "0988888888",
+    "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&q=80&w=150",
+    "createdAt": "2026-07-15T16:10:09.861Z"
+  },
+  {
+    "_id": "4e3kn20oa",
+    "email": "thang@gmail.com",
+    "password": "thang123",
+    "role": "patient",
+    "fullName": "Thang Lai",
+    "phone": "65757657",
+    "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Thang%20Lai",
+    "createdAt": "2026-07-15T16:11:48.640Z"
+  }
+]

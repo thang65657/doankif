@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "tkupk4jv2",
+    "patientId": "htiklequ4",
+    "patientName": "Nguyễn Văn A",
+    "testType": "Xét nghiệm Tổng quát 12 chỉ số",
+    "facility": "Bệnh Viện Đa Khoa MedLatec",
+    "dateTime": "2026-07-20T08:00:00.000Z",
+    "atHome": true,
+    "address": "123 Đường Nguyễn Trãi, Thanh Xuân, Hà Nội",
+    "paymentStatus": "paid",
+    "status": "confirmed",
+    "createdAt": "2026-07-15T16:10:09.862Z"
+  }
+]

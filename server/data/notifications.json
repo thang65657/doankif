@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "xsyoiqyrd",
+    "userId": "htiklequ4",
+    "title": "Kết quả xét nghiệm mới",
+    "message": "Kết quả xét nghiệm ngày 10/06/2026 của bạn đã có trên hệ thống. AI đã hoàn tất phân tích sức khỏe.",
+    "type": "test_result",
+    "read": false,
+    "createdAt": "2026-07-15T16:10:09.863Z"
+  },
+  {
+    "_id": "fduidfl62",
+    "userId": "htiklequ4",
+    "title": "Nhắc lịch hẹn xét nghiệm",
+    "message": "Lịch hẹn lấy mẫu xét nghiệm tại nhà của bạn được lên lịch vào 08:00 sáng ngày 20/07/2026.",
+    "type": "appointment",
+    "read": false,
+    "createdAt": "2026-07-15T16:10:09.864Z"
+  }
+]

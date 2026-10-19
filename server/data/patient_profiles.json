@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "cyl9rh2ed",
+    "userId": "htiklequ4",
+    "fullName": "Nguyễn Văn A",
+    "dob": "1990-05-15",
+    "gender": "Nam",
+    "bloodType": "O+",
+    "height": 172,
+    "weight": 68,
+    "medicalHistory": [
+      "Huyết áp thấp nhẹ",
+      "Đau dạ dày"
+    ],
+    "allergies": [
+      "Penicillin",
+      "Hải sản"
+    ],
+    "currentMedications": [
+      "Nghệ mật ong"
+    ],
+    "updatedAt": "2026-07-15T16:10:09.860Z"
+  },
+  {
+    "_id": "h1ns8jrx8",
+    "userId": "4e3kn20oa",
+    "fullName": "Thang Lai",
+    "dob": "",
+    "gender": "Nam",
+    "bloodType": "O",
+    "height": 170,
+    "weight": 60,
+    "medicalHistory": [],
+    "allergies": [],
+    "currentMedications": [],
+    "updatedAt": "2026-07-15T16:11:48.641Z"
+  }
+]

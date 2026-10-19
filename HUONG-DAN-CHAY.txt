@@ -1,0 +1,13 @@
+HUONG DAN CHAY WEB OCR
+
+1. Giai nen file ZIP vao mot thu muc moi.
+2. Mo thu muc co file package.json.
+3. Bam vao thanh dia chi cua File Explorer, go cmd va bam Enter.
+4. Nhap lan luot:
+
+   npm install
+   npm run dev
+
+5. Mo trinh duyet tai http://localhost:3000
+
+Yeu cau Node.js 20 tro len. OCR khong can GEMINI_API_KEY.

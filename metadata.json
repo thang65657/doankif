@@ -1,0 +1,10 @@
+{
+  "name": "MedTech Blood Test AI",
+  "description": "Nền tảng quản lý xét nghiệm máu thông minh, OCR tự động và phân tích cảnh báo sức khỏe AI",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

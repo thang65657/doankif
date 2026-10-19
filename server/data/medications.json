@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "mzns9i2ty",
+    "userId": "htiklequ4",
+    "name": "Atorvastatin (Thuốc điều trị mỡ máu)",
+    "dosage": "10mg (1 viên)",
+    "frequency": "1 lần/ngày",
+    "times": [
+      "21:00"
+    ],
+    "startDate": "2026-06-10",
+    "endDate": "2026-09-10",
+    "instructions": "Uống sau khi ăn tối, hạn chế rượu bia.",
+    "isActive": true,
+    "createdAt": "2026-07-15T16:10:09.864Z"
+  }
+]

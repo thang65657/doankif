@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar to keep panels compact and clean */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 99px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(241, 245, 249, 0.9);
+}
+
+.glass-card-dark {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Grid background pattern */
+.grid-bg {
+  background-image: radial-gradient(rgba(59, 130, 246, 0.05) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Subtle glow pulse */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0);
+  }
+}
+
+.pulse-glow-blue {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Custom visual gradients for text */
+.gradient-text-blue {
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-dark {
+  background: linear-gradient(135deg, #0f172a 30%, #1e293b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom interactive active states */
+.hover-card-trigger {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-card-trigger:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(59, 130, 246, 0.3);
+  border-color: rgba(99, 102, 241, 0.4);
+}
+
+/* Glassmorphism card premium upgrades */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+/* Horizontal laser scan animation */
+@keyframes laser-scan {
+  0% {
+    top: 0%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.animate-scan-line {
+  animation: laser-scan 3s ease-in-out infinite;
+}
+
+/* Beautiful dynamic gradient button */
+.btn-gradient-indigo {
+  background: linear-gradient(135deg, #4f46e5 0%, #6366f1 50%, #8b5cf6 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-gradient-indigo:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.4);
+}
+
+.btn-gradient-emerald {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-gradient-emerald:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.4);
+}
+
+/* Neon Glow Indicators */
+.neon-glow-blue {
+  box-shadow: 0 0 15px 1px rgba(59, 130, 246, 0.35);
+}
+.neon-glow-emerald {
+  box-shadow: 0 0 15px 1px rgba(16, 185, 129, 0.35);
+}
+.neon-glow-purple {
+  box-shadow: 0 0 15px 1px rgba(139, 92, 246, 0.35);
+}
+.neon-glow-rose {
+  box-shadow: 0 0 15px 1px rgba(244, 63, 94, 0.35);
+}
+
+/* Error shake animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+.animate-shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+/* Animated gradient moving background */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient-bg {
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite;
+}
+
+

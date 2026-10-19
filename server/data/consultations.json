@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "dxkib31rk",
+    "patientId": "htiklequ4",
+    "patientName": "Nguyễn Văn A",
+    "doctorId": "qv1cgw0dm",
+    "doctorName": "BS. Trần Thị B",
+    "status": "active",
+    "messages": [
+      {
+        "senderId": "htiklequ4",
+        "senderName": "Nguyễn Văn A",
+        "text": "Xin chào bác sĩ, tôi vừa tải lên kết quả xét nghiệm máu gần đây. Bác sĩ xem giúp tôi chỉ số cholesterol cao như vậy có nguy hiểm không ạ?",
+        "timestamp": "2026-06-11T09:00:00.000Z"
+      },
+      {
+        "senderId": "qv1cgw0dm",
+        "senderName": "BS. Trần Thị B",
+        "text": "Chào anh A. Tôi đã xem qua kết quả của anh. Chỉ số cholesterol ở mức 5.8 mmol/L là hơi cao nhẹ so với tiêu chuẩn (dưới 5.2). Hiện tại chưa ở mức quá nguy hiểm nhưng anh cần chú ý ăn uống lành mạnh hơn, bớt ăn lòng lợn, mỡ động vật nhé.",
+        "timestamp": "2026-06-11T09:15:00.000Z"
+      },
+      {
+        "senderId": "htiklequ4",
+        "senderName": "Nguyễn Văn A",
+        "text": "Dạ vâng thưa bác sĩ, tôi sẽ điều chỉnh chế độ ăn uống. Cảm ơn bác sĩ nhiều!",
+        "timestamp": "2026-06-11T09:30:00.000Z"
+      }
+    ],
+    "createdAt": "2026-07-15T16:10:09.863Z"
+  }
+]

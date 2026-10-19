@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "6gpw5evz3",
+    "userId": "htiklequ4",
+    "title": "Chế độ dinh dưỡng giảm cholesterol & mỡ gan nhẹ",
+    "description": "Thực đơn dinh dưỡng giàu chất xơ hòa tan, chất béo không bão hòa và omega-3 giúp phục hồi tế bào gan và làm giảm cholesterol có hại.",
+    "meals": {
+      "breakfast": "Cháo yến mạch nấu chín với sữa đậu nành không đường và 1 quả táo cắt lát.",
+      "lunch": "Cá thu áp chảo (150g) xốt cà chua, bông cải xanh luộc, và 1 bát cơm gạo lứt.",
+      "dinner": "Ức gà luộc xé phay trộn hành tây rau thơm, súp lơ trắng hấp, và súp bí đỏ.",
+      "snacks": "Hạt hạnh nhân sấy (khoảng 10 hạt) và 1 cốc nước ép bưởi vào bữa phụ chiều 15:00."
+    },
+    "notes": "Cần đảm bảo uống đủ 2 - 2.5 lít nước mỗi ngày. Kiêng hoàn toàn nội tạng động vật, thịt mỡ heo/bò, đồ chiên rán xào nhiều dầu mỡ, bia rượu và nước ngọt có ga.",
+    "isCustom": false,
+    "createdAt": "2026-07-15T16:10:09.865Z"
+  }
+]

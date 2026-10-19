@@ -1,0 +1,80 @@
+[
+  {
+    "_id": "20cj0bcwa",
+    "patientId": "htiklequ4",
+    "patientName": "Nguyễn Văn A",
+    "testDate": "2026-06-10",
+    "facility": "Phòng Khám Đa Khoa MedLatec",
+    "performer": "BS. Trần Thị B",
+    "indicators": {
+      "rbc": {
+        "value": 4.8,
+        "refMin": 4.2,
+        "refMax": 5.9,
+        "unit": "T/L",
+        "status": "normal",
+        "name": "Hồng cầu (RBC)"
+      },
+      "wbc": {
+        "value": 6.5,
+        "refMin": 4,
+        "refMax": 10,
+        "unit": "G/L",
+        "status": "normal",
+        "name": "Bạch cầu (WBC)"
+      },
+      "plt": {
+        "value": 245,
+        "refMin": 150,
+        "refMax": 400,
+        "unit": "G/L",
+        "status": "normal",
+        "name": "Tiểu cầu (PLT)"
+      },
+      "hgb": {
+        "value": 142,
+        "refMin": 120,
+        "refMax": 165,
+        "unit": "g/L",
+        "status": "normal",
+        "name": "Hemoglobin (HGB)"
+      },
+      "glucose": {
+        "value": 5.4,
+        "refMin": 3.9,
+        "refMax": 6.4,
+        "unit": "mmol/L",
+        "status": "normal",
+        "name": "Đường huyết"
+      },
+      "cholesterol": {
+        "value": 5.8,
+        "refMin": 3.6,
+        "refMax": 5.2,
+        "unit": "mmol/L",
+        "status": "high",
+        "name": "Cholesterol toàn phần"
+      },
+      "ast": {
+        "value": 28,
+        "refMin": 5,
+        "refMax": 40,
+        "unit": "U/L",
+        "status": "normal",
+        "name": "Men gan AST (SGOT)"
+      },
+      "alt": {
+        "value": 42,
+        "refMin": 5,
+        "refMax": 41,
+        "unit": "U/L",
+        "status": "high",
+        "name": "Men gan ALT (SGPT)"
+      }
+    },
+    "aiAnalysis": "Chỉ số Cholesterol toàn phần (5.8 mmol/L) và Men gan ALT (42 U/L) hiện tại đang ở mức cao hơn so với bình thường. Điều này cảnh báo nguy cơ mỡ máu tăng và gan đang phải làm việc quá tải. Bạn nên hạn chế thức ăn nhiều dầu mỡ, đồ chiên rán, rượu bia và bổ sung nhiều chất xơ, uống đủ nước. Tiếp tục theo dõi và tập thể dục đều đặn.",
+    "doctorNotes": "Bệnh nhân có men gan và mỡ máu tăng nhẹ. Cần điều chỉnh chế độ ăn giảm bớt mỡ động vật và hạn chế rượu bia. Tái khám sau 3 tháng để kiểm tra lại các chỉ số này.",
+    "doctorSignature": "BS_Tran_Thi_B_Digitally_Signed_2026-06-10",
+    "createdAt": "2026-07-15T16:10:09.862Z"
+  }
+]
